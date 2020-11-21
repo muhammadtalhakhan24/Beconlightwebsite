@@ -1,0 +1,286 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none; 	
+}
+html{
+	scroll-behavior: smooth;
+}
+.header{
+	
+	height: 45px;
+	background-color: #6970D9;
+	font-size: 20px; 
+	line-height: 40px; 
+	color: white;
+	}
+	#aqwer{
+		text-align: center;
+}
+#headeer{
+	height: 88px; 
+
+}
+#a{
+float: right;
+	width: 110px;
+	height: 70px;
+	background-color: #4C53D9;
+	opacity: 0.8;
+	line-height: 66px;
+	text-align: center;
+	margin:8px;
+	border-radius: 10px;
+	margin-top: 40px;
+
+ 
+}
+ul #a a:hover {
+	background-color: #919696;
+	width: 110px;
+	height: 70px;
+	border-radius: 10px; 
+	transition: 0.5s;
+
+}
+ul #z a:hover{
+	background-color: #7CE4E4;
+	width: 250px;
+	height: 60px; 
+}
+#z{
+	float: right;
+	width: 250px;
+	height: 60px;
+	background-color: #E5ECEB;
+		
+}
+ul #a a{
+	color: white;
+	display: block;
+	text-decoration: none;
+}
+ul #z a{
+	color: black;
+	display: block;
+	text-decoration: none;
+}
+ul li ul li {
+	display: none;
+}
+ul li:hover ul li {
+	display: block;
+}
+#staff{
+    
+    margin-top: 90px;
+    margin-left: 100px;
+    height: 2200px;
+    width: 85%;
+    border-top: solid 1px blue;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;    
+}
+#staff h1{
+	text-align: center;
+	color: blue;
+	text-decoration: underline;
+	line-height: 100px;
+	font-family: cursive;	 
+}
+#staff p{
+	font-size: 18px;
+	margin-top: 20px;
+	line-height: 25px;
+}
+#body2,#body3,#body4{	
+	display: flex;
+}
+#first{
+	height: 400px;
+	width: 400px;
+	border: solid 1px blue;
+	margin-left:  360px;
+	margin-top: 40px; 
+}
+#first img{
+	height: 320px;
+	width: 100%;	 
+}
+h2{
+	text-align: center;
+	padding-top:30px;
+
+}
+
+#fourth{
+	height: 450px;
+	width: 300px;
+	border: solid 1px gray;
+	margin: 40px;
+}
+#fourth img{
+     width: 300px;
+     height: 250px;
+}
+
+#fifth{
+	height: 450px;
+	width: 300px;
+	border: solid 1px blue;
+	margin: 40px;
+}
+#fifth img{
+     width: 300px;
+     height: 250px;    
+}
+#sixth{
+	height: 450px;
+	width: 300px;
+	border: solid 1px gray;
+	margin: 40px;
+}
+#sixth img{
+     width: 300px;
+     height: 250px;    
+}
+
+#seventh{
+	height: 450px;
+	width: 300px;
+	border: solid 1px blue;
+	margin: 40px;
+}
+#seventh img{
+     width: 300px;
+     height: 250px;
+     }
+#eight{
+	height: 450px;
+	width: 300px;
+	border: solid 1px gray;
+	margin: 40px;
+}
+#eight img{
+     width: 300px;
+     height: 250px;
+     }
+#ninth{
+	height: 450px;
+	width: 300px;
+	border: solid 1px blue;
+	margin: 40px;
+}
+#ninth img{
+     width: 300px;
+     height: 250px;
+     }
+
+#ten{
+	height: 450px;
+	width: 300px;
+	border: solid 1px gray;
+	margin: 40px;
+}
+#ten img{
+     width: 300px;
+     height: 250px;
+     }
+#eleven{
+	height: 450px;
+	width: 300px;
+	border: solid 1px blue;
+	margin: 40px;
+}
+#eleven img{
+     width: 300px;
+     height: 250px;
+     }
+#twelve{
+	height: 450px;
+	width: 300px;
+	border: solid 1px gray;
+	margin: 40px;
+}
+#twelve img{
+     width: 300px;
+     height: 250px;
+     }
+
+
+
+footer{
+	height: 360px;
+	background:gray;
+    display: flex;
+	
+}
+#log{
+margin-right:50px;
+margin-top: 325px;
+background: white; 	
+}
+ 
+
+#box{
+	width: 280px;
+		height: 260px;
+		background: gray;
+    margin: 40px;
+    border-radius: 5px;
+    text-align: center;       
+}
+#box a{
+	font-size: 20px;
+	line-height: 50px;
+	color: black;
+	text-decoration: none;
+}
+#box a:hover{
+	color: white;
+	transition: 0.2s;
+}
+footer p{
+    font-size:20px;
+     
+}
+#ab{
+	line-height: 100px;
+	font-family: cursive;
+text-decoration: underline;
+}
+#lll{
+	margin:17px; 
+	border-radius: 100px;
+	margin-top: 25px;
+	  
+} 
+#lll:hover
+{
+	background: white;
+	transform: rotateY(180deg); 
+}
+#small{
+	height: 50px;
+	background: #4C53D9;
+	line-height: 30px;
+}
+.scroll{
+	position: fixed;
+	bottom: 15px;
+	right: 5px;
+	z-index: 10;
+	cursor: pointer;
+	display: block;
+	opacity: 0.5;
+}
+.scroll i{
+	height: 30px;
+	width: 30px;
+	background: black;
+	text-align: center;
+	border-radius: 100%;
+	color: white;
+	line-height: 28px;
+}

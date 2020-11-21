@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none; 
+	
+}
+.header{
+	
+	height: 45px;
+	background-color: #6970D9;
+	font-size: 20px; 
+	line-height: 40px; 
+	color: white;
+
+	}
+	#aqwer{
+		text-align: center;
+}
+#headeer{
+	height: 88px;
+
+
+}
+#a{
+float: right;
+	width: 110px;
+	height: 70px;
+	background-color: #4C53D9;
+	opacity: 0.8;
+	line-height: 66px;
+	text-align: center;
+	margin:8px;
+	border-radius: 10px;
+	margin-top: 40px;
+
+ 
+}
+ul #a a:hover {
+	background-color: #919696;
+	width: 110px;
+	height: 70px;
+	border-radius: 10px; 
+	transition: 0.5s;
+
+}
+ul #z a:hover{
+	background-color: #7CE4E4;
+	width: 250px;
+	height: 60px; 
+}
+#z{
+	float: right;
+	width: 250px;
+	height: 60px;
+	background-color: #E5ECEB;
+		
+}
+ul #a a{
+	color: white;
+	display: block;
+	text-decoration: none;
+}
+ul #z a{
+	color: black;
+	display: block;
+	text-decoration: none;
+}
+ul li ul li {
+	display: none;
+}
+ul li:hover ul li {
+	display: block;
+}
+#foundermessage{
+	height: 1100px;
+	width: 85%;
+	border-top:  solid 1px blue;
+	border-left: none;
+	border-right: none;
+	border-bottom:none; 
+	margin-top: 90px;
+	margin-left: 100px;
+}
+#foundermessage h1{
+	font-family: cursive;
+	text-decoration: underline;
+	line-height: 130px;
+	text-align: center;
+	color: blue;
+}
+#foundermessage p{
+	font-size: 21px;
+	line-height: 30px;   
+}
+#foundermessage img{
+ margin-left: 330px;
+}
+footer{
+	height: 360px;
+	background:gray;
+    display: flex;	
+}
+
+#log{
+margin-right:50px;
+margin-top: 325px;
+background: white; 	
+}
+ 
+
+#box{
+	width: 280px;
+		height: 260px;
+		background: gray;
+    margin: 40px;
+    border-radius: 5px;
+    text-align: center;       
+}
+#box a{
+	font-size: 20px;
+	line-height: 50px;
+	color: black;
+	text-decoration: none;
+}
+#box a:hover{
+	color: white;
+	transition: 0.2s;
+}
+footer p{
+    font-size:20px; 
+}
+#ab{
+	line-height: 100px;
+	font-family: cursive;
+text-decoration: underline;
+}
+#lll{
+	margin:17px; 
+	border-radius: 100px;
+	margin-top: 25px;
+	  
+} 
+#lll:hover
+{
+	background: white;
+	transform: rotateY(180deg); 
+}
+
+#small{
+	height: 50px;
+	background: #4C53D9;
+	line-height: 30px;
+}

@@ -1,0 +1,402 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none; 	
+}
+html{
+	scroll-behavior: smooth;
+}
+.header{
+	
+	height: 45px;
+	background-color: #6970D9;
+	font-size: 20px; 
+	line-height: 40px; 
+	color: white;
+	}
+	#aqwer{
+		text-align: center;
+}
+#headeer{
+	height: 88px; 
+
+}
+#a{
+float: right;
+	width: 110px;
+	height: 70px;
+	background-color: #4C53D9;
+	opacity: 0.8;
+	line-height: 66px;
+	text-align: center;
+	margin:8px;
+	border-radius: 10px;
+	margin-top: 40px;
+
+ 
+}
+ul #a a:hover {
+	background-color: #919696;
+	width: 110px;
+	height: 70px;
+	border-radius: 10px; 
+	transition: 0.5s;
+
+}
+ul #z a:hover{
+	background-color: #7CE4E4;
+	width: 250px;
+	height: 60px; 
+}
+#z{
+	float: right;
+	width: 250px;
+	height: 60px;
+	background-color: #E5ECEB;
+		
+}
+ul #a a{
+	color: white;
+	display: block;
+	text-decoration: none;
+}
+ul #z a{
+	color: black;
+	display: block;
+	text-decoration: none;
+}
+ul li ul li {
+	display: none;
+}
+ul li:hover ul li {
+	display: block;
+}
+#portal{
+    height: 650px;
+    width: 100%;
+    background: #CEDEDE;
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    letter-spacing: 2px;
+    line-height: 190px;
+    margin-top: 600px; 
+
+    
+}
+#img1{
+   height: 400px;
+   width: 400px;
+   background: red;
+   margin:5px; 
+   line-height: 30px; 
+   border-radius: 5px;
+   border: solid 2px; 
+   background: #D8E16B;   
+}
+#v{
+   font-size: 20px;
+   text-align: left;
+}
+.maindiv{
+		width: 100%;
+		height: 600px;
+		background-image: url("https://scontent.fkhi11-1.fna.fbcdn.net/v/t31.0-8/s960x960/10293549_10152034224357050_9104509327389937317_o.jpg?_nc_cat=100&ccb=2&_nc_sid=85a577&_nc_ohc=a_-r9rTeX4UAX_R7nV_&_nc_ht=scontent.fkhi11-1.fna&tp=7&oh=d109fa48b158c0a138c9ff7b34c3aef1&oe=5FD607CC");
+		position: absolute;
+		margin-top: 195px;
+		background-size: 100% 100%;
+		animation: wave 20s infinite linear;
+		
+	}
+	@keyframes wave {
+		0%{background-image: url("https://scontent.fkhi11-1.fna.fbcdn.net/v/t31.0-8/s960x960/10293549_10152034224357050_9104509327389937317_o.jpg?_nc_cat=100&ccb=2&_nc_sid=85a577&_nc_ohc=a_-r9rTeX4UAX_R7nV_&_nc_ht=scontent.fkhi11-1.fna&tp=7&oh=d109fa48b158c0a138c9ff7b34c3aef1&oe=5FD607CC");}
+		20%{background-image: url("https://alliedschools.edu.pk/inc/uploads/2019/09/img3.png")}
+		40%{background-image: url(https://www.hpgs.edu.pk/primary_systems/wp-content/uploads/2017/04/title-min.jpg);}
+		60%{background-image: url("https://alliedschools.edu.pk/inc/uploads/2019/10/Project-based-Learning.jpg");}
+		80%{background-image: url("https://propakistani.pk/wp-content/uploads/2019/03/A-level.jpg")}
+	}
+
+	.container{
+		
+		display: flex;
+		justify-content: center;	
+		
+	}
+
+	.box{
+		width: 350px;
+		height: 400px;
+		background: #D7E4E9;
+    margin: 20px;
+    transition: 1s;
+    border-radius: 5px;
+    border: solid 2px; 
+	}
+	.box:hover{
+		transform: scale(1.1);
+		background: #C6DEE8;
+
+		}
+.containerr{
+margin-left: 480px;		
+	}		
+
+	.boxx{
+		width: 350px;
+		height: 400px;
+		background: #D7E4E9;
+    margin: 20px;
+    transition: 1s;
+    border-radius: 5px;
+    border: solid 2px; 
+	}
+	.boxx:hover{
+		transform: scale(1.1);
+		background: #C6DEE8;
+		z-index: 2;
+		}
+#azs{
+	font-size: 50px;
+	text-align: center;
+	line-height: 120px;
+	font-family: cursive;
+	margin-top: 640px;
+}
+h2{
+	text-align: center;
+	font-family: cursive;
+	font-size: 25px;
+
+}
+#hover{
+	text-align: center;
+}
+#button{
+	border-radius: 100px;
+	width: 90px;
+	height: 40px;
+	margin-left: 130px;
+	background: white;
+	text-align: center;
+	line-height: 40px;
+	border: solid 0.5px; 
+}
+#button:hover{
+	background: #A7ACAE;
+	transition: 0.5s;
+}
+.owner{
+	height: 500px;
+	width: 1347px;
+	background-color: #ADD8E6;	
+	
+}
+#image{
+	height: 400px;
+	width: 400px;
+	margin-left: 70px;
+	margin-top: 50px;
+	border-radius: 100%;
+	border: solid  gray;
+}
+#founder{
+	
+	height:380px;
+	width: 500px;
+	margin-left: 200px;
+	margin-top: 90px;
+	position: absolute;
+	display: inline;
+	
+}
+#founder h1{
+	font-family: cursive;
+	line-height: 90px;
+	text-decoration: underline;
+	text-align: center;
+}
+#founder p{
+	font-size:20px;
+	line-height: 27px; 
+}
+#founder a{
+color: blue;
+
+}
+#extra{
+	height: 230px;
+	width: 100%;
+	background: #ACACAC;
+	margin-top: 25px;
+	margin-bottom: 25px;
+
+}
+#extra img{
+	margin-top: 30px;
+	margin-left: 45px;
+
+}
+#extra p{
+    margin-top: -20px;
+}
+#pr{
+	height: 175px;
+	width: 185px;
+	display: inline-grid;
+	margin-left: 200px;
+	margin-top: 30px; 
+	text-align: center;
+	font-size: 20px;
+}
+#pr:hover{
+	transform: rotate(360deg);
+	transition: 1s; 
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.news{
+	height: 600px;
+	width: 1347px;
+	background-image: url(notic.png);
+	background-size:100% 600px;
+	text-align: center;
+	line-height: 130px;  
+	font-family: cursive;
+	color: white;
+	background-color: #454545;
+}
+#body{
+	display: flex;
+
+}
+#body #first{
+	height: 310px;
+	width: 400px;
+	margin-left: 180px;
+	margin-top: 20px;
+	font-family: cursive;
+	color: white; 
+}
+#first h1{
+	text-decoration: underline;
+}
+#first p{
+	line-height:25px;
+	font-size: 19px;
+	text-align: center; 
+}
+hr{
+	border: solid 0.5px white;
+	margin-top: -40px; 
+}
+
+.events{
+	height: 500px;
+	width: 100%;
+	background-image:url(eve.jpg);
+	background-size: 310px 540px;
+     background-color: #454545;       
+}
+.events h1{
+     text-align: center;
+	line-height: 100px;  
+	font-family: cursive;
+	color: black;		
+}
+#body2{
+	display: flex;
+}
+ #second
+{
+height: 310px;
+	width: 400px;
+	margin-left: 180px;
+	margin-top: 20px;
+	font-family: cursive;
+	border: double 5px white;
+	background-color: #E5EA9A;
+}
+#program{
+	margin-top: 20px;
+}
+#second h2{
+	line-height: 67px; 
+}
+
+footer{
+	height: 360px;
+	background:gray;
+    display: flex;
+	
+}
+#log{
+margin-right:50px;
+margin-top: 325px;
+background: white; 	
+}
+ 
+
+#box{
+	width: 280px;
+		height: 260px;
+		background: gray;
+    margin: 40px;
+    border-radius: 5px;
+    text-align: center;       
+}
+#box a{
+	font-size: 20px;
+	line-height: 50px;
+	color: black;
+	text-decoration: none;
+}
+#box a:hover{
+	color: white;
+	transition: 0.2s;
+}
+footer p{
+    font-size:20px;
+     
+}
+#ab{
+	line-height: 100px;
+	font-family: cursive;
+text-decoration: underline;
+}
+#lll{
+	margin:17px; 
+	border-radius: 100px;
+	margin-top: 25px;
+	  
+} 
+#lll:hover
+{
+	background: white;
+	transform: rotateY(180deg); 
+}
+#small{
+	height: 50px;
+	background: #4C53D9;
+	line-height: 30px;
+}
+.scroll{
+	position: fixed;
+	bottom: 15px;
+	right: 5px;
+	z-index: 10;
+	cursor: pointer;
+	display: block;
+	opacity: 0.5;
+}
+.scroll i{
+	height: 30px;
+	width: 30px;
+	background: black;
+	text-align: center;
+	border-radius: 100%;
+	color: white;
+	line-height: 28px;
+}
+
